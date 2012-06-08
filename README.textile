@@ -18,4 +18,6 @@ This version has been modified by <a href="mailto:rogerb@rogerbinns.com">Roger B
 h2. Documentation
 
 <a href="http://www.dev-articles.com/article/Analytics-referral-tracking-for-Android-447001">Article on how to use it</a>
-<a href="https://market.android.com/details?id=com.giago.referraltester&feature=search_result">Android market app</a>
+<a href="https://market.android.com/details?id=com.giago.referraltester&feature=search_result">Android market app (original version)</a>
+
+See <a href="https://github.com/rogerbinns/referraltester/downloads">downloads</a> for this code base built with debug keys, or compile it yourself.
