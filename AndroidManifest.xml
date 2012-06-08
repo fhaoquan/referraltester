@@ -5,8 +5,7 @@
       a:versionName="1.1.1">
     <application a:icon="@drawable/icon" a:label="@string/app_name" a:theme="@style/ReferralTester">
         <activity a:name=".ReferralTester"
-                  a:label="@string/app_name"
-                  a:screenOrientation="portrait">
+                  a:label="@string/app_name" a:configChanges="touchscreen|keyboard|keyboardHidden|orientation">
             <intent-filter>
                 <action a:name="android.intent.action.MAIN" />
                 <category a:name="android.intent.category.LAUNCHER" />
@@ -14,14 +13,8 @@
         </activity>
         <activity a:name=".Send"
                   a:label="@string/app_name"
-                  a:screenOrientation="portrait" />
-        <receiver a:name="com.google.android.apps.analytics.AnalyticsReceiver" a:exported="true">
-		  <intent-filter>
-		    <action a:name="com.android.vending.INSTALL_REFERRER" />
-		  </intent-filter>
-		</receiver>
+                  a:configChanges="touchscreen|keyboard|keyboardHidden|orientation"/>
     </application>
     <uses-sdk a:minSdkVersion="4" />
-    <uses-permission a:name="android.permission.INTERNET" />
-	<uses-permission a:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission a:name="android.permission.READ_LOGS" />
 </manifest>

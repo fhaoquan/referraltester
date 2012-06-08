@@ -3,6 +3,7 @@
 <include layout="@layout/action_bar" />
 <ScrollView  style="@style/Fill">
 <LinearLayout a:orientation="vertical" style="@style/Fill">
+    <TextView style="@style/FillHorizontaly" a:text="@string/description0" a:layout_margin="5dp" />
 	<TextView style="@style/FillHorizontaly" a:text="@string/description1" a:layout_margin="5dp" />
 	<TextView style="@style/FillHorizontaly" a:text="@string/description2" a:layout_margin="5dp" />
 	<TextView style="@style/FillHorizontaly" a:text="@string/description3" a:layout_margin="5dp" />

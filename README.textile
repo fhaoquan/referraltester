@@ -1,4 +1,18 @@
+Forked from <a href="https://github.com/giago/referraltester">https://github.com/giago/referraltester</a>
+
 h1. Referral Tester
+
+This version has been modified by <a href="mailto:rogerb@rogerbinns.com">Roger Binns</a>:
+
+* Removed Google Analytics (it was giving an error I couldn't be bothered to diagnose).
+* Runs in orientation of the device, not forced into portrait.
+* The last Intent data you sent is remembered, and is the default on starting the app again.
+* None of the fields are mandatory.  The <a href="https://developers.google.com/analytics/devguides/collection/android/devguide#google-play-tracking">page</a> does say they are mandatory but not having them allows you to test the robustness of your code should they have been generated a different way.
+* Field values are not URL encoded.  This allows you to test with invalid data such as putting in & and % symbols
+* The send activity has a text widget with status information.
+* Status information includes a list of detected receivers.
+* Logcat is run for 10 seconds after sending to help see any errors.  The Android sendBroadcast API returns void so logcat is the only way to know if there were errors.  A lot of gunk messages are filtered out (eg audio ones resulting from you pressing the Send button).  See the source for the tag prefixes which are ignored as your app may coincidentally use one of them.
+* Even if more than one receiver is present, only the first will receive the intent.  This to match Android Market/Play Store/Finsky behaviour which does the same instead of the usual platform behaviour of all receivers being called.
 
 
 h2. Documentation
