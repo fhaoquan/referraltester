@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="js video no-maskImage placeholder" lang="en"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Google Play商店推广那些事 - 技术小黑屋</title>
+  <meta name="author" content="androidyue">
+
+  
+  <meta name="keywords" content="Java,Ruby,Android,Linux,日语">
+  <meta name="ujianVerification" content="13e7551f5af04296bb891d33b010bf6b">
+  
+  <meta name="description" content="Google Play商店推广那些事 May 11th, 2015 Play商店是Android的官方商店，虽然在大陆无法访问，但是这里依旧是重要的版本发布市场，尤其是对于那些国际化的产品。对于拓宽海外市场，付费推广就是一部分不可忽视的措施。而Android付费推广必然就是Play商店推广。 …">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+  <link rel="apple-touch-icon" href="http://7jpolu.com1.z0.glb.clouddn.com/touch_icon.png">
+
+  
+  <link rel="canonical" href="http://droidyue.com/blog/2015/05/11/google-play-tuiguang">
+  <link href="http://droidyue.com/favicon.png" rel="icon">
+  <link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://droidyue.com/atom.xml" rel="alternate" title="技术小黑屋" type="application/atom+xml">
+  <script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/dc.js" async="" type="text/javascript"></script><script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/modernizr-2.js"></script>
+  <script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/jquery.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+      $(document).bind('DOMNodeInserted', function(event) {
+			$('a[href^="http"]').each(
+				function(){
+					if (!$(this).attr('target')) {
+						$(this).attr('target', '_blank')
+					} 
+					if ($(this).attr('href').indexOf("droidyue.com") != -1) {
+						$(this).attr('target', '_self')
+					}
+				}
+			);
+		});
+  </script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/pt_serif.css" rel="stylesheet" type="text/css">
+<link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/PT_Sans.css" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43841039-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src='http://droidyue.b0.upaiyun.com/js/dc.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/blogutils.js" charset="utf-8"></script>
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/best_posts_data_source.js" charset="utf-8"></script>
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/trackurl_maker.js" charset="utf-8"></script>
+<script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/share.js"></script><script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/version.js" charset="UTF-8" type="text/javascript"></script><script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/cookie.js" charset="UTF-8" type="text/javascript"></script><script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/cyrU6w9cI.js" charset="UTF-8" type="text/javascript"></script><script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/event.js" charset="UTF-8" type="text/javascript"></script><script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/sea.js" charset="UTF-8" type="text/javascript"></script><script src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/app-build.js" charset="UTF-8" type="text/javascript"></script><link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/slide_share.css" rel="stylesheet"><style id="changyanCss">#SOHUCS{clear:both;min-height:320;_height:320px;overflow:visible;}#SOHUCS iframe{width:100%;min-height:320px;_height:320px;}</style><link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/changyan2.css" rel="stylesheet" charset="utf-8"><link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/default.css" rel="stylesheet" charset="utf-8"><link rel="stylesheet" href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/changyan_config.css"><link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/share_style0_16.css" rel="stylesheet"><link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/share_popup.css" rel="stylesheet"><link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/select_share.css" rel="stylesheet"></head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="http://droidyue.com/">技术小黑屋</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://droidyue.com/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input name="q" value="site:droidyue.com" type="hidden">
+    <input class="search" name="q" results="0" placeholder="Search" type="text">
+  </fieldset>
+</form>
+  
+<fieldset class="mobile-nav"><select><option selected="selected" value="">Navigate…</option><option value="http://droidyue.com/">» 博客</option><option value="http://droidyue.com/blog/archives">» 存档</option><option value="http://droidyue.com/about/">» 关于</option><option value="http://droidyue.com/subscribe/">» 订阅</option><option value="http://droidyue.com/jijizhazha/">» 叽叽喳喳</option><option value="http://droidyue.com/donate/">» Donate</option><option value="http://droidyue.com/jobs/">» Jobs</option><option value="http://droidyue.com/atom.xml">» RSS</option></select></fieldset><ul class="main-navigation">
+  <li><a href="http://droidyue.com/">博客</a></li>
+  <li><a href="http://droidyue.com/blog/archives">存档</a></li>
+  <li><a href="http://droidyue.com/about/">关于</a></li>
+  <li><a href="http://droidyue.com/subscribe/">订阅</a></li>
+  <li><a href="http://droidyue.com/jijizhazha/">叽叽喳喳</a></li>
+  <li><a href="http://droidyue.com/donate/">Donate</a></li>
+  <li><a href="http://droidyue.com/jobs/">Jobs</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Google Play商店推广那些事</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-05-11T21:43:00+08:00" pubdate="" data-updated="true">May 11<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Play商店是Android的官方商店，虽然在大陆无法访问，但是这里依旧是重要的版本
+发布市场，尤其是对于那些国际化的产品。对于拓宽海外市场，付费推广就是一部分不可忽视的措施。而Android付费推广必然就是Play商店推广。本文
+主要从技术方面讲解，如何统计推广数据，以及在开发过程中遇到的一些疑问和困惑。</p>
+
+<!--more-->
+
+
+<h2>生成推广链接</h2>
+
+<p>想要进行推广，必须有推广链接。Google提供了生成推广链接的地址<a target="_blank" href="https://developers.google.com/analytics/devguides/collection/android/v2/campaigns#google-play-url-builder">Google Play URL Builder</a>,遗憾的是这个地址被墙了，不过可以使用<a target="_blank" href="http://www.digitangle.co.uk/toolsandresources/google-play-url-builder/#sthash.HLdt4vXJ.dpbs">这个地址</a>，可能稍微慢一点。</p>
+
+<p><img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/play_url_builder.png"></p>
+
+<h3>简单描述</h3>
+
+<ul>
+<li>Package Name 必填  应用的包名，如com.example.application</li>
+<li>Campaign Source 必填 推广的来源，比如google, citysearch, newsletter4</li>
+<li>Campaign Medium 选填  推广的媒介，比如cpc, banner, email</li>
+<li>Campaign Term   选填 推广的关键字 比如 running+shoes</li>
+<li>Campaign Content 选填 推广内容描述</li>
+<li>Campaign Name  选填 可以填写 产品名，推广代号或者是推广口号</li>
+</ul>
+
+
+<p>生成的推广地址就是<a target="_self" href="https://play.google.com/store/apps/details?id=com.mx.browser&amp;referrer=utm_source%3Ddroidyue.com%26utm_medium%3Dadlink%26utm_term%3Dandroid%252Bbrowser%26utm_content%3DBest%2520and%2520Fast%2520Browser%26utm_campaign%3Dandroidyue_123">https://play.google.com/store/apps/details?id=com.mx.browser&amp;referrer=utm_source%3Ddroidyue.com%26utm_medium%3Dadlink%26utm_term%3Dandroid%252Bbrowser%26utm_content%3DBest%2520and%2520Fast%2520Browser%26utm_campaign%3Dandroidyue_123</a></p>
+
+<h2>推广如何工作的</h2>
+
+<p>有了上面的推广链接，我们有必要了解一下Play商店的推广是如何工作的。</p>
+
+<p>  1.用户从网页或者应用中点击Play商店推广链接跳转到Play商店应用的页面下载。<br>
+  2.应用下载完成并安装后，Google Play商店会发送一个<strong>INSTALL_REFERRER</strong>的Intent广播，该Intent中包含了推广链接中的参数。<br>
+  3.应用收到<strong>INSTALL_REFERRER</strong>广播之后，从Intent中读取参数，上报推广数据。</p>
+
+<h2>统计推广数据</h2>
+
+<h3>1.manifest声明receiver，接收<strong>INSTALL_REFERRER</strong>广播</h3>
+
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tbody><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="xml"><span class="line"><span class="nt">&lt;receiver</span> <span class="na">android:name=</span><span class="s">".PlayCampaignReceiver"</span> <span class="na">android:exported=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+</span><span class="line">  <span class="nt">&lt;intent-filter&gt;</span>
+</span><span class="line">              <span class="nt">&lt;action</span> <span class="na">android:name=</span><span class="s">"com.android.vending.INSTALL_REFERRER"</span> <span class="nt">/&gt;</span>
+</span><span class="line">          <span class="nt">&lt;/intent-filter&gt;</span>  
+</span><span class="line"><span class="nt">&lt;/receiver&gt;</span>
+</span></code></pre></td></tr></tbody></table></div></figure>
+
+
+<h3>2.实现PlayCampaignReceiver，处理<strong>INSTALL_REFERRER</strong>广播</h3>
+
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tbody><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+</pre></td><td class="code"><pre><code class="java"><span class="line"><span class="kn">package</span> <span class="n">com</span><span class="o">.</span><span class="na">droidyue</span><span class="o">.</span><span class="na">playstorereferrertester</span><span class="o">;</span>
+</span><span class="line">
+</span><span class="line"><span class="kn">import</span> <span class="nn">android.content.BroadcastReceiver</span><span class="o">;</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">android.content.Context</span><span class="o">;</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">android.content.Intent</span><span class="o">;</span>
+</span><span class="line"><span class="kn">import</span> <span class="nn">android.util.Log</span><span class="o">;</span>
+</span><span class="line">
+</span><span class="line"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">PlayCampaignReceiver</span> <span class="kd">extends</span> <span class="n">BroadcastReceiver</span> <span class="o">{</span>
+</span><span class="line">  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">String</span> <span class="n">LOGTAG</span> <span class="o">=</span> <span class="s">"PlayCampaignReceiver"</span><span class="o">;</span>
+</span><span class="line">  <span class="nd">@Override</span>
+</span><span class="line">  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onReceive</span><span class="o">(</span><span class="n">Context</span> <span class="n">context</span><span class="o">,</span> <span class="n">Intent</span> <span class="n">intent</span><span class="o">)</span> <span class="o">{</span>
+</span><span class="line">      <span class="n">Log</span><span class="o">.</span><span class="na">i</span><span class="o">(</span><span class="n">LOGTAG</span><span class="o">,</span> <span class="s">"onReceive intent="</span> <span class="o">+</span> <span class="n">intent</span><span class="o">);</span>
+</span><span class="line">      <span class="c1">//处理referrer参数</span>
+</span><span class="line">      <span class="n">String</span> <span class="n">referrer</span> <span class="o">=</span> <span class="n">intent</span><span class="o">.</span><span class="na">getStringExtra</span><span class="o">(</span><span class="s">"referrer"</span><span class="o">);</span>
+</span><span class="line">      <span class="c1">//some other code</span>
+</span><span class="line">  <span class="o">}</span>
+</span><span class="line"><span class="o">}</span>
+</span></code></pre></td></tr></tbody></table></div></figure>
+
+
+<h2>多个Receiver</h2>
+
+<p>有些时候我们可能有这样的需求，我们需要多个Receiver监听<strong>INSTALL_REFERRER</strong>广播，其实是可以的。</p>
+
+<h3>代码调用</h3>
+
+<p>这一种是比较推荐的实现方式，比较简单，就是在一个Receiver的onReceive中，实例化另一个Receiver并调用其onReceive方法。</p>
+
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tbody><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+</pre></td><td class="code"><pre><code class="java"><span class="line"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">PlayCampaignReceiver</span> <span class="kd">extends</span> <span class="n">BroadcastReceiver</span> <span class="o">{</span>
+</span><span class="line">  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">String</span> <span class="n">LOGTAG</span> <span class="o">=</span> <span class="s">"PlayCampaignReceiver"</span><span class="o">;</span>
+</span><span class="line">  <span class="nd">@Override</span>
+</span><span class="line">  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onReceive</span><span class="o">(</span><span class="n">Context</span> <span class="n">context</span><span class="o">,</span> <span class="n">Intent</span> <span class="n">intent</span><span class="o">)</span> <span class="o">{</span>
+</span><span class="line">      <span class="n">Log</span><span class="o">.</span><span class="na">i</span><span class="o">(</span><span class="n">LOGTAG</span><span class="o">,</span> <span class="s">"onReceive intent="</span> <span class="o">+</span> <span class="n">intent</span><span class="o">);</span>
+</span><span class="line">      <span class="c1">//调用另一个Receiver实例的onReceive方法</span>
+</span><span class="line">      <span class="k">new</span> <span class="nf">AnotherPlayCampaignReceiver</span><span class="o">().</span><span class="na">onReceive</span><span class="o">(</span><span class="n">context</span><span class="o">,</span> <span class="n">intent</span><span class="o">);</span>
+</span><span class="line">  <span class="o">}</span>
+</span><span class="line"><span class="o">}</span>
+</span></code></pre></td></tr></tbody></table></div></figure>
+
+
+<h3>manifest声明</h3>
+
+<p>通过manifest的增加另一个监听<strong>INSTALL_REFERRER</strong>广播的Receiver的形式理论上也可以，但是之前的Google文档中说这种方式有问题，不建议使用。之前Google统计关于市场推广的描述为</p>
+
+<blockquote><p>Note: Only one BroadcastReceiver class can be specified 
+per application. Should you need to incorporate two or more 
+BroadcastReceivers from different SDKs, you will need to create your own
+ BroadcastReceiver class that will receive all broadcasts and call the 
+appropriate BroadcastReceivers for each type of Broadcast.</p></blockquote>
+
+<h2>何时收到推广数据</h2>
+
+<p>关于何时收到推广数据的问题争论颇多，基本上又两个答案：安装完成之后和打一次打开程序时。这两个答案可以说是都对或者都错。</p>
+
+<p>在3.1之前，<strong>INSTALL_REFERRER</strong>广播 确实是在程序安装之后发送的。 <br>
+在3.1之后，<strong>INSTALL_REFERRER</strong>广播 就变成了在程序第一次启动的时候进行的。</p>
+
+<p>那么这又是作何原因呢，其真实的原因就是在3.1 API 12之后，Android系统引入了停止状态，也就是说一个刚下载的程序，在用户手动点击图标启动之前，是收不到正常的广播的。只有当处于非停止状态的应用才能收到<strong>INSTALL_REFERRER</strong>广播。所以广播的发送就选择在程序第一次启动时。  更多关于<a target="_self" href="http://droidyue.com/blog/2014/07/14/look-inside-android-package-stop-state-since-honeycomb-mr1/">Android中的停止状态</a></p>
+
+<p>为了进一步验证这个发送广播实际，我在Play Store上传了一个测试程序，可以使用这个地址<a target="_self" href="https://play.google.com/store/apps/details?id=com.droidyue.playstorereferrertester&amp;referrer=utm_source%3Ddroidyue.com%26utm_medium%3Dblog%26utm_term%3Dtest%252Bapp%26utm_content%3Dtest%252Bapp%26utm_campaign%3Dandroidyue_123456">https://play.google.com/store/apps/details?id=com.droidyue.playstorereferrertester&amp;referrer=utm_source%3Ddroidyue.com%26utm_medium%3Dblog%26utm_term%3Dtest%252Bapp%26utm_content%3Dtest%252Bapp%26utm_campaign%3Dandroidyue_123456</a>从Play Store下载测试一下，过滤日志<code>adb logcat | grep PlayCampaignReceiver</code>测试。</p>
+
+<p>注意：这里的第一次安装可以是从Play Store 应用中点打开按钮，也可以是从Launcher中点击应用图标。前面两种情况都是可以接收到广播的。</p>
+
+<h2>别的包也会收到么</h2>
+
+<p>这也是一个被争论的问题，当然我也是通过上面的包验证了，答案就是不会的。<strong>INSTALL_REFERRER</strong>只会发给那个推广安装的程序。</p>
+
+<h2>例外情况</h2>
+
+<p>从网页到客户端的安装是无法发送<strong>INSTALL_REFERRER</strong>广播的。</p>
+
+<h2>奇怪问题</h2>
+
+<h3>协议为哪个</h3>
+
+<p>其实有人会奇怪，究竟推广链接是market还是https协议，答案是都可以，但是推荐使用https协议的链接，首先的既定事实是Google
+ Play URL 
+Builder默认生成的就是https协议链接，另外https是一个被广泛采用的协议，设想如果一个market协议链接在PC浏览器上被点击是怎样
+的一种体验呢？答案不言自明。</p>
+
+<h2>参考文章</h2>
+
+<ul>
+<li><a target="_blank" href="https://developers.google.com/analytics/devguides/collection/android/v2/campaigns#overview">Campaign Measurement </a></li>
+</ul>
+
+</div>
+
+
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/vote_tips.js" charset="utf-8"></script>
+      <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/donate_data.js" charset="utf-8"></script>
+    <link href="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/donate.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+    function setup() {
+      document.getElementById("donate_me").addEventListener("click", function() {
+          donate_container.style.visibility = 'visible';
+          donate_container.style.opacity = 1;
+      });
+      document.getElementById('donate_close').addEventListener("click", function() {
+          donate_container.style.opacity = 0;
+          donate_container.style.visibility = "hidden";
+
+      });
+    }
+    </script>
+
+    <div class="donate_container" id="donate_container">
+        <div id="donate_dialog" class="donate_dialog">
+            <span class="donate_close" id="donate_close">×</span>
+            <img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/wechat_pay.png" class="no_boarder_class" height="210px" width="210px">
+            <img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/or_select.png" style="margin-bottom:50px" class="no_boarder_class" width="150px">
+            <img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/alipay_pay.png" class="no_boarder_class" height="210px" width="210px">
+            <br>
+            <br>
+            <div style="text-align: center;"><b><script type="text/javascript">document.write(getDonateTips());</script><b>如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！</b></b></div>
+            <p style="text-align: center;"><script type="text/javascript">document.write(getDonateProblemText());</script></p>
+            <br>
+        </div>
+
+    </div>
+
+    
+   
+    <script type="text/javascript">
+        if (shouldDisplay()) {
+        	document.write('<div style="text-align: center;"><br/><button 
+id="donate_me" class="no_background">' + getDonateButtonText() + 
+'</button></div><br/>');
+        	setup();
+        }
+    </script><div style="text-align: center;"><br><button id="donate_me" class="no_background">&nbsp;&nbsp;&nbsp;打赏支持，金额随意&nbsp;&nbsp;&nbsp;</button></div><br>
+
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/post_bannder.js"></script>
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/furi_netou.js" charset="utf-8"></script>
+      
+<script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/blog_ads_data_source.js" charset="utf-8"></script>
+    
+<script type="text/javascript">
+    	displaySection(shouldDisplayBlogAds() && onlyForDesktop(), 
+isBlogAdsInDebug(), makeBlogAdsDataSource(), makeBlogAdsPrefix(), 
+makeBlogAdsSuffix());
+</script>
+
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/random_recommend.js" charset="utf-8"></script>
+<script type="text/javascript">
+    var randomRecommendPosts = 
+makeRecommendPost(makeBestPostsDataSource());
+    displaySection(showDisplayRandomRecommend(), 
+isRandomRecommendInDebug(), randomRecommendPosts, 
+makeRandomRecommendPrefix(), makeRandomRecommendSuffix());
+</script><h2>干货推荐：</h2><ul><li><a href="http://droidyue.com/blog/2015/08/22/where-has-the-java-permgen-gone/?droid_refer=random_recommend" target="_self">Java永久代去哪儿了</a></li><li><a href="http://droidyue.com/blog/2015/03/08/sockets-programming-in-java/?droid_refer=random_recommend" target="_self">读懂Java中的Socket编程</a></li><li><a href="http://droidyue.com/blog/2014/11/30/java-programmer-must-read-these-9-books/" target="_self">Java程序员必读的9本书</a></li><li><a href="http://droidyue.com/blog/2014/08/30/java-details-string-concatenation/?droid_refer=random_recommend" target="_self">Java细节：字符串的拼接</a></li><li><a href="http://droidyue.com/blog/2014/12/28/in-android-handler-classes-should-be-static-or-leaks-might-occur/?droid_refer=random_recommend" target="_self">Android中Handler引起的内存泄露</a></li><li><a href="http://droidyue.com/blog/2014/07/12/check-main-thread-in-android-chinese-edition/?droid_refer=random_recommend" target="_self">Android中如何检测当前线程为主线程</a></li><li><a href="http://droidyue.com/blog/2014/11/23/block-web-resource-in-webview/?droid_refer=random_recommend" target="_self">Android中WebView拦截替换网络请求数据</a></li><li><a href="http://droidyue.com/blog/2014/11/02/note-for-google-io-memory-management-for-android-chinese-edition/?droid_refer=random_recommend" target="_self">Google IO：Android内存管理主题演讲记录</a></li></ul>
+
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/post_recommend_book_data_source.js" charset="utf-8"></script>
+<script type="text/javascript">
+        displaySection(shouldDisplayPostBook(), isPostBookInDebug(), 
+makePostBookDataSource(), makePostBookPrefix(), makePostBookSuffix());
+</script>
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">androidyue</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-05-11T21:43:00+08:00" pubdate="" data-updated="true">May 11<span>th</span>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class="category" href="http://droidyue.com/blog/categories/android/">Android</a>
+  
+</span>
+
+
+    </p>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="http://droidyue.com/blog/2015/04/26/guanbi-mac-qq-tishi/" title="Previous Post: 关闭Mac屏幕右上角QQ通知">« 关闭Mac屏幕右上角QQ通知</a>
+      
+      
+        <a class="basic-alignment right" href="http://droidyue.com/blog/2015/05/15/jar-not-in-apk/" title="Next Post: JAR包未加入APK程序">JAR包未加入APK程序 »</a>
+        
+    </p>
+     
+      <script>if (isDesktop()) 
+{window._bd_share_config={"common":{"bdSnsKey":{},"bdMini":"2","bdMiniList":["mshare","fbook","tsina","twi","weixin","linkedin","qzone","youdao","bdysc","tieba","douban","sqq","mail","copy","print"],"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"6","bdPos":"right","bdTop":"250"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new
+ Date()/36e5)];}</script>
+
+    
+  </footer>
+  </article>
+
+  <section>
+   <!--高速版-->
+<div style="width: 100%; height: auto;" id="SOHUCS" sid="/blog/2015/05/11/google-play-tuiguang"><div id="SOHU_MAIN"><div id="SOHU-comment-main" class="sohu-comment-wrapper"><div id="article_info_sohu">        <div class="reset-g clear-g section-title-w  section-title-logoutStyle">
+            <div class="title-join-w">
+                <div class="join-wrap-w join-wrap-b"><strong class="wrap-name-w wrap-name-b">评论</strong><span class="wrap-join-w wrap-join-b">(<em class="join-strong-gw join-strong-bg">1</em><span node-type="involved">人参与</span><i class="gap-b">，</i><em class="join-strong-gw join-strong-bg">1</em><span node-type="comments">条评论</span>)</span></div>
+            </div>
+            <div class="title-user-w">
+                <div style="display: none;" node-type="sohu-pact" class="title-link-w"><a href="http://zt.pinglun.sohu.com/s2014/sljyhgy/index.shtml" target="_blank">搜狐“我来说两句”用户公约</a></div>
+            </div>
+        </div>
+        </div><div id="login_sohu"></div><div id="comment_sohu"><div node-type="cbox-wrapper" class="reset-g section-cbox-w"><div style="width:1px;height:1px;overflow:hidden;"><img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/vcode.jpg" style="visibility:hidden;width:1px;height:1px;"></div><div class="clear-g cbox-block-w">
+            <div class="block-head-w">
+                <div class="head-img-w">
+                                        <a node-type="user-avatar" href="javascript:void(0)" target="_self"><img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/pic42_null.gif" onerror="SOHUCS.isImgErr(this)" alt="" height="42" width="42"></a>
+                    </div>
+                <!--
+                                <div class="head-gold-w"><a href="javascript:void(0)">金币</a></div>
+                -->
+            </div>
+        <div class="block-post-w block-post-default-e"><div class="post-wrap-w post-wrap-b"><div class="wrap-area-w"><div class="area-textarea-w" style="position:relative;zoom:1;z-index:9;"><textarea name="" class="textarea-fw textarea-bf">来说两句吧...</textarea></div></div><div class="clear-g wrap-action-w wrap-action-b"><div class="action-function-w action-function-b relative-z-w"><ul class="clear-g"><li class="function-face-w"><a href="javascript:void(0)" class="effect-w" title="表情"><i class="face-b"></i></a></li><li class="function-uploadimg-w"><a href="javascript:void(0)" class="effect-w" title="上传图片"><i class="uploadimg-b"></i></a><div class="uploadimg-file-w"><input class="file-fw" id="img_upload" name="file" accept="image/*" type="file"></div><div class="img-btn-cover" style="width:40px;height:40px;margin-top:-40px;z-index:-1;position: relative;"></div></li><!--<li class="function-at-w"><a href="javascript:void(0)" class="effect-w"><i class="at-b"></i></a></li>--></ul></div><div class="clear-g action-issue-w"><div class="issue-btn-w"><a href="javascript:void(0)"><button class="btn-fw btn-bf btn-fw-main">发布</button></a></div></div></div></div>
+                                    <div node-type="login-list" class="post-login-w">
+                <ul class="clear-g">
+                                                            <li style="display:block">
+                        <div class="login-wrap-w login-wrap-b">
+                            <a data-key="sohu" target="_self" href="javascript:;" title="搜狐" alt="搜狐">
+                                <span class="wrap-icon-w icon30-sohu-b"></span><span class="wrap-name-w wrap-name-b">搜狐登录</span>
+                            </a>
+                        </div>
+                    </li>
+                                        <li style="display:block">
+                        <div class="login-wrap-w login-wrap-b">
+                            <a data-key="sina" target="_self" href="javascript:;" title="新浪微博" alt="新浪微博">
+                                <span class="wrap-icon-w icon30-sina-b"></span><span class="wrap-name-w wrap-name-b">微博登录</span>
+                            </a>
+                        </div>
+                    </li>
+                                        <li style="display:block">
+                        <div class="login-wrap-w login-wrap-b">
+                            <a data-key="qq" target="_self" href="javascript:;" title="QQ" alt="QQ">
+                                <span class="wrap-icon-w icon30-qq-b"></span><span class="wrap-name-w wrap-name-b">QQ登录</span>
+                            </a>
+                        </div>
+                    </li>
+                                        <li style="display:block">
+                        <div class="login-wrap-w login-wrap-b">
+                            <a data-key="renren" target="_self" href="javascript:;" title="人人网" alt="人人网">
+                                <span class="wrap-icon-w icon30-renren-b"></span><span class="wrap-name-w wrap-name-b">人人登录</span>
+                            </a>
+                        </div>
+                    </li>
+                                        <li>
+                        <div class="login-wrap-w login-wrap-b login-wrap-visitor-b">
+                            <a data-key="visitor" target="_self" href="javascript:void(0)">
+                                <span class="wrap-icon-w icon30-visitor-b"></span><span class="wrap-name-w wrap-name-b">游客</span>
+                            </a>
+                        </div>
+                    </li>
+                    </ul>
+            </div>
+            </div></div><div node-type="prompt-no-privilege" class="cbox-prompt-w" style="display: none;">
+            <span class="prompt-empty-w prompt-empty-b">等级不够，发表评论升至指定级别才能获得该特权。详情请参见<a node-type="privilege-intro" href="javascript:;">等级说明</a>。</span>
+        </div></div></div><div id="list_sort_sohu"></div><div topicid="695735572" id="list_sohu">        <div class="reset-g section-list-w">                                                            <div class="list-block-gw list-newest-w list-newest-b">                <div class="block-title-gw">                    <ul class="clear-g">                        <li><strong class="title-name-gw title-name-bg">最新评论</strong></li>                    </ul>                </div>                                <div class="clear-g block-cont-gw block-cont-bg" datatype="time" cmtnum="0" cmtid="769101670">                    <div class="cont-head-gw">                        <div class="head-img-gw"><a href="javascript:void(0)" commhref="javascript:void(0)"><img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/pic42_null.gif" onerror="SOHUCS.isImgErr(this)" alt="" uid="0" height="42" width="42"></a></div>                    </div>                    <div class="cont-msg-gw">                        <div class="msg-wrap-gw">                            <div class="wrap-user-gw global-clear-spacing">                                <span class="user-time-gw user-time-bg evt-time">2015年5月19日 8:07</span>
+                                                                        
+                                                            <span class="user-name-gw" title="技术小黑屋网友"><a href="javascript:void(0)" commhref="javascript:void(0)" uid="0">技术小黑屋网友</a></span>                                                                <!-- 管理员、铭牌图标 -->
+                                                                        
+                                                                        
+                    <!-- 管理员、铭牌图标 END -->                                                                                            </div>                                                                                    <div class="wrap-issue-gw">                                <p class="issue-wrap-gw">                                    <span class="wrap-word-bg ">实践出真知，受用。</span>                                </p>                            </div>                                                        <div class="clear-g wrap-action-gw">                                <div class="action-click-gw">                                    <i class="gap-gw"></i>                                    <span class="click-ding-gw"><a href="javascript:void(0)" title="顶" class="evt-support"><i class="icon-gw icon-ding-bg"></i><em class="icon-name-bg"></em></a></span><i class="gap-gw"></i><span class="click-cai-gw"><a href="javascript:void(0)" title="踩" class="evt-opposed"><i class="icon-gw icon-cai-bg"></i><em class="icon-name-bg"></em></a></span><i class="gap-gw"></i><span class="click-reply-gw click-reply-eg"><a href="javascript:void(0)" class="evt-reply">回复</a></span><i class="gap-gw"></i><span class="click-share-gw click-reply-eg"><a href="javascript:void(0)" class="evt-share">分享</a></span>                                </div>                                <div class="action-from-gw action-from-bg"></div>                            </div>                            <div class="wrap-reply-gw"></div>                        </div>                    </div>                </div>                        </div>                    </div></div><div id="list_hot"><iframe style="border: 0px none; width: 789px; height: 261px; overflow: hidden; min-height: 0px;" scrolling="no" allowtransparency="false" frameborder="0"></iframe></div><div id="page_sohu"></div><div id="more_list_sohu"></div><div id="powerby_sohu">        <div class="reset-g section-service-w">
+            <div class="service-wrap-w service-wrap-b"><a node-type="powered-by" href="http://changyan.sohu.com/?from=changyan" target="_blank">技术小黑屋正在使用畅言</a></div>
+        </div></div></div></div></div>
+<script charset="utf-8" type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/changyan.js"></script>
+<script type="text/javascript">
+    window.changyan.api.config({
+        appid: 'cyrU6w9cI',
+        conf: 'prod_0d366f76b04261efa2b407c3b62edd9f'
+    });
+</script>        
+
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <script type="text/javascript">
+	var bestPosts = makeBestPostsDataSource();
+	bestPosts = makeBatchUrlTrackable(bestPosts, "ninki_posts");
+	if (getRandomBoolean()) {
+		bestPosts = shuffleJsonObject(bestPosts);
+	}
+	
+	if (shouldLimitBestPosts()) {
+		var limit = getBestPostsLimitSize();
+		bestPosts = splitJSONObject(bestPosts, limit);
+	}
+	displaySection(shouldDisplayBestPosts(), isBestPostsInDebug(), bestPosts, makeBestPostsPrefix(), makeBestPostsSuffix());
+</script><section class="odd"><h1>人气文章</h1><ul><li><a href="http://droidyue.com/blog/2015/07/04/six-books-every-programer-must-read/?droid_refer=ninki_posts" target="_self">程序员必读的六本书</a></li><li><a href="http://droidyue.com/blog/2014/11/30/java-programmer-must-read-these-9-books/?droid_refer=ninki_posts" target="_self">Java程序员必读的9本书</a></li><li><a href="http://droidyue.com/blog/2014/07/27/think-twice-when-coding/?droid_refer=ninki_posts" target="_self">纠结才能写出好代码</a></li><li><a href="http://droidyue.com/blog/2015/08/08/funny-programmer-season-one/?droid_refer=ninki_posts" target="_self">程序员的逗比瞬间（第一季）</a></li><li><a href="http://droidyue.com/blog/2014/09/13/my-work-for-qiniu-demo/?droid_refer=ninki_posts" target="_self">我的七牛参赛作品</a></li><li><a href="http://droidyue.com/blog/2015/08/01/dive-into-android-large-heap/?droid_refer=ninki_posts" target="_self">探究android:largeHeap</a></li><li><a href="http://droidyue.com/blog/2015/06/27/desgign-pattern-observer/?droid_refer=ninki_posts" target="_self">这就是观察者模式</a></li><li><a href="http://droidyue.com/blog/2015/06/13/talk-show-about-dependency-injection/?droid_refer=ninki_posts" target="_self">说说依赖注入</a></li><li><a href="http://droidyue.com/blog/2014/09/20/interaction-between-java-and-javascript-in-android/?droid_refer=ninki_posts" target="_self">Android中Java和JavaScript交互最详细的文章</a></li><li><a href="http://droidyue.com/blog/2015/02/28/my-android-work-akoi/?droid_refer=ninki_posts" target="_self">士别三年，我的最新个人作品</a></li><li><a href="http://droidyue.com/blog/2014/09/08/learn-sqlite-in-a-very-fast-way/?droid_refer=ninki_posts" target="_self">十分钟掌握SQLite操作</a></li><li><a href="http://droidyue.com/blog/2014/08/26/write-emails-using-markdown-in-browsers/?droid_refer=ninki_posts" target="_self">工作利器：终于可以使用Markdown写邮件啦</a></li><li><a href="http://droidyue.com/blog/2015/05/30/android-http-clients/?droid_refer=ninki_posts" target="_self">Android中HTTP相关的API</a></li><li><a href="http://droidyue.com/blog/2014/12/28/in-android-handler-classes-should-be-static-or-leaks-might-occur/?droid_refer=ninki_posts" target="_self">Android中Handler引起的内存泄露</a></li><li><a href="http://droidyue.com/blog/2014/11/08/bad-smell-of-asynctask-in-android/?droid_refer=ninki_posts" target="_self">Android中糟糕的AsyncTask</a></li><li><a href="http://droidyue.com/blog/2014/10/15/speed-up-your-git/?droid_refer=ninki_posts" target="_self">人生苦短，让你的Git飞起来吧</a></li><li><a href="http://droidyue.com/blog/2015/01/11/looking-into-singleton/?droid_refer=ninki_posts" target="_self">单例这种设计模式</a></li><li><a href="http://droidyue.com/blog/2015/03/08/sockets-programming-in-java/?droid_refer=ninki_posts" target="_self">读懂Java中的Socket编程</a></li><li><a href="http://droidyue.com/blog/2014/10/12/understanding-weakreference-in-java/?droid_refer=ninki_posts" target="_self">理解Java中的弱引用</a></li><li><a href="http://droidyue.com/blog/2014/11/02/note-for-google-io-memory-management-for-android-chinese-edition/?droid_refer=ninki_posts" target="_self">Google IO：Android内存管理主题演讲记录</a></li><li><a href="http://droidyue.com/blog/2014/10/02/the-private-modifier-in-java/?droid_refer=ninki_posts" target="_self">”失效”的private修饰符</a></li><li><a href="http://droidyue.com/blog/2014/07/14/look-inside-android-package-stop-state-since-honeycomb-mr1/?droid_refer=ninki_posts" target="_self">你造么,Android中程序的停止状态</a></li><li><a href="http://droidyue.com/blog/2014/12/07/differences-between-stack-and-heap-in-java/?droid_refer=ninki_posts" target="_self">Java中的堆和栈的区别</a></li><li><a href="http://droidyue.com/blog/2014/07/12/scan-media-files-in-android-chinese-edition/?droid_refer=ninki_posts" target="_self">Android扫描多媒体文件剖析</a></li><li><a href="http://droidyue.com/blog/2014/12/14/substring-memory-issue-in-java/?droid_refer=ninki_posts" target="_self">Java中的substring真的会引起内存泄露么</a></li><li><a href="http://droidyue.com/blog/2014/11/23/block-web-resource-in-webview/?droid_refer=ninki_posts" target="_self">Android中WebView拦截替换网络请求数据</a></li><li><a href="http://droidyue.com/blog/2014/08/03/great-web-tools-for-android-development/?droid_refer=ninki_posts" target="_self">快速提高Android开发效率的Web工具</a></li><li><a href="http://droidyue.com/blog/2014/06/15/what-will-be-removed-if-you-click-clear-data-button-in-system-application-item/?droid_refer=ninki_posts" target="_self">Android设置中的清除数据究竟移除哪些数据</a></li><li><a href="http://droidyue.com/blog/2014/07/04/attentions-when-adding-permission-for-android-application/?droid_refer=ninki_posts" target="_self">注意:在为Android程序申请权限时</a></li><li><a href="http://droidyue.com/blog/2015/07/18/anr-in-android/?droid_refer=ninki_posts" target="_self">说说Android中的ANR</a></li><li><a href="http://droidyue.com/blog/2014/12/28/static-biding-and-dynamic-binding-in-java/?droid_refer=ninki_posts" target="_self">Java中的静态绑定和动态绑定</a></li><li><a href="http://droidyue.com/blog/2015/04/12/avoid-memory-leaks-on-context-in-android/?droid_refer=ninki_posts" target="_self">避免Android中Context引起的内存泄露</a></li><li><a href="http://droidyue.com/blog/2014/11/29/why-onsharedpreferencechangelistener-was-not-called/?droid_refer=ninki_posts" target="_self">Google为何这样设计OnSharedPreferenceChangeListener</a></li><li><a href="http://droidyue.com/blog/2015/05/11/google-play-tuiguang/?droid_refer=ninki_posts" target="_self">Google Play商店推广那些事</a></li><li><a href="http://droidyue.com/blog/2015/04/07/autoboxing-and-autounboxing-in-java/?droid_refer=ninki_posts" target="_self">Java中的自动装箱与拆箱</a></li><li><a href="http://droidyue.com/blog/2014/08/30/java-details-string-concatenation/?droid_refer=ninki_posts" target="_self">Java细节：字符串的拼接</a></li><li><a href="http://droidyue.com/blog/2014/07/12/check-main-thread-in-android-chinese-edition/?droid_refer=ninki_posts" target="_self">Android中如何检测当前线程为主线程</a></li><li><a href="http://droidyue.com/blog/2014/07/13/set-preferred-application-in-android-chinese-edition/?droid_refer=ninki_posts" target="_self">Android如何设置默认程序</a></li><li><a href="http://droidyue.com/blog/2014/10/01/great-markdown-viewer-as-a-chrome-extension/?droid_refer=ninki_posts" target="_self">实时预览Markdown利器</a></li><li><a href="http://droidyue.com/blog/2015/08/29/funny-programmer-season-two/?droid_refer=ninki_posts" target="_self">程序员的逗比瞬间（第二季）</a></li><li><a href="http://droidyue.com/blog/2015/06/05/how-garbage-collector-handles-circular-references/?droid_refer=ninki_posts" target="_self">垃圾回收器如何处理循环引用</a></li><li><a href="http://droidyue.com/blog/2014/12/21/java-runtime-data-areas/?droid_refer=ninki_posts" target="_self">JVM运行时的数据区</a></li><li><a href="http://droidyue.com/blog/2014/12/21/string-literal-pool-in-java/?droid_refer=ninki_posts" target="_self">Java中的字符串常量池</a></li><li><a href="http://droidyue.com/blog/2015/07/25/use-android-lint-to-find-higher-api-usage/?droid_refer=ninki_posts" target="_self">使用Android lint发现并解决高版本API问题</a></li><li><a href="http://droidyue.com/values/?droid_refer=ninki_posts" target="_self">一个超简易的强密码生成器</a></li><li><a href="http://droidyue.com/blog/2015/08/22/where-has-the-java-permgen-gone/?droid_refer=ninki_posts" target="_self">Java永久代去哪儿了</a></li><li><a href="http://droidyue.com/blog/2015/09/05/android-process-and-thread-schedule-nice/?droid_refer=ninki_posts" target="_self">剖析Android中进程与线程调度之nice</a></li><li><a href="http://droidyue.com/jijizhazha/?droid_refer=ninki_posts" target="_self">叽叽喳喳的技术小黑屋</a></li><li><a href="http://droidyue.com/blog/2014/08/05/detect-android-device-type-by-sniffing-user-agent/?droid_refer=ninki_posts" target="_self">从UA中分辨出Android设备类型</a></li><li><a href="http://droidyue.com/blog/2014/11/18/six-ways-to-run-shell-in-ruby/?droid_refer=ninki_posts" target="_self">Ruby执行shell命令的六种方法</a></li><li><a href="http://droidyue.com/blog/2015/09/12/is-your-java-code-jit-friendly/?droid_refer=ninki_posts" target="_self">你的Java代码对JIT编译友好么？</a></li><li><a href="http://droidyue.com/blog/2015/09/17/android-process-and-thread-schedule-cgroups/?droid_refer=ninki_posts" target="_self">Android进程线程调度之cgroups</a></li></ul></section>
+<script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/blogroll_data_source.js" charset="utf-8"></script>
+<script type="text/javascript">
+	displaySection(shouldDisplayBlogRoll() && onlyForDesktop(), 
+isBlogRollInDebug(), makeBlogRollDataSource(), makeBlogRollPrefix(), 
+makeBlogRollSuffix());
+</script>
+<script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/common_book_data_source.js" charset="utf-8"></script>
+<script type="text/javascript">
+	displaySection(shouldDisplayCommonBook() && onlyForDesktop(), 
+isCommonBookInDebug(), makeCommonBookDataSource(), 
+makeCommonBookPrefix(), makeCommonBookSuffix());
+</script>
+<script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/program_book_data_source.js" charset="utf-8"></script>
+        
+<script type="text/javascript">
+displaySection(shouldDisplayProgramBook() && onlyForDesktop(), 
+isPrgoramBookInDebug(), makeProgramBookDataSource(), 
+makeProgramBookPrefix(), makeProgramBookSuffix());
+</script>
+<section class="even">
+  <h1>最新文章</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/09/17/android-process-and-thread-schedule-cgroups/">Android进程线程调度之cgroups</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/09/12/is-your-java-code-jit-friendly/">你的Java代码对JIT编译友好么？</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/09/05/android-process-and-thread-schedule-nice/">剖析Android中进程与线程调度之nice</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/08/29/funny-programmer-season-two/">程序员的逗比瞬间（第二季）</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/08/22/where-has-the-java-permgen-gone/">Java永久代去哪儿了</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/08/16/dive-into-android-activity-launchmode/">深入讲解Android中Activity launchMode</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/08/08/funny-programmer-season-one/">程序员的逗比瞬间（第一季）</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/08/01/dive-into-android-large-heap/">探究android:largeHeap</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/07/25/use-android-lint-to-find-higher-api-usage/">使用Android lint发现并解决高版本API问题</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/07/18/anr-in-android/">说说Android中的ANR</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/07/11/start-proxy-server-on-mac/">在Mac上为其他设备开启代理</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/07/06/wei-shi-yao-gao-duan-ren-cai-hui-shi-yong-pai-mai-xuan-gong-zuo/">为什么高端人才会使用拍卖选工作</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/07/04/six-books-every-programer-must-read/">程序员必读的六本书</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/06/27/desgign-pattern-observer/">这就是观察者模式</a>
+      </li>
+    
+      <li class="post">
+        <a href="http://droidyue.com/blog/2015/06/23/google-play-services-7-dot-5-adds-new-capabilities/">Google Play Services 7.5新增API及多项特性</a>
+      </li>
+    
+  </ul>
+</section>
+
+  
+</aside>
+
+
+    <span class="toggle-sidebar"></span></div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright © 2015 - androidyue -
+  <span class="credit">Powered by <a target="_blank" href="http://octopress.org/">Octopress</a> 云存储提供方： <a target="_blank" href="https://www.upyun.com/"><img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/90x45.png" alt="UPYUN"></a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/arrow38.js"></script>
+<noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+
+
+
+<div title="Scroll to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;" id="topcontrol"><img src="Google%20Play%E5%95%86%E5%BA%97%E6%8E%A8%E5%B9%BF%E9%82%A3%E4%BA%9B%E4%BA%8B%20-%20%E6%8A%80%E6%9C%AF%E5%B0%8F%E9%BB%91%E5%B1%8B_files/arrow37.png"></div><div data-bd-bind="1443085436665" class="bdshare-slide-button-box bdshare-slide-style-r6" style="top: 250px; width: 0px; z-index: 99999; right: 0px;"><a style="left: -24px;" href="#" onclick="return false;" class="bdshare-slide-button"></a><div style="width: 0px; display: none;" class="bdshare-slide-list-box"><div class="bdshare-slide-top">分享到</div><div class="bdshare-slide-list"><ul style="width: 226px;" class="bdshare-slide-list-ul"></ul></div><div style="width: 226px;" class="bdshare-slide-bottom"><a href="#" onclick="return false;" class="slide-more" data-cmd="more">更多...</a></div></div></div><iframe id="bdSharePopup_selectshare1443085436670bg" class="bdselect_share_bg" style="display:none;" frameborder="0"></iframe><div data-bd-bind="1443085436670" id="bdSharePopup_selectshare1443085436670box" style="display: none;" share-type="selectshare" class="bdselect_share_box"><div class="selectshare-mod-triangle"><div class="triangle-border"></div><div class="triangle-inset"></div></div><div class="bdselect_share_head"><span>分享到</span><a href="http://www.baidu.com/s?wd=undefined&amp;tn=SE_hldp08010_vurs2xrp" class="bdselect_share_dialog_search" target="_blank"><i class="bdselect_share_dialog_search_i"></i><span class="bdselect_share_dialog_search_span">百度一下</span></a><a class="bdselect_share_dialog_close"></a></div><div class="bdselect_share_content"><ul class="bdselect_share_list bdshare-button-style0-16"><div class="bdselect_share_partners"><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div><a href="#" class="bds_more" data-cmd="more"></a></ul></div></div><iframe style="border: 0px none; display: block; width: 120px; position: fixed; top: 0px; z-index: 2147483647; left: 55.75px;" allowtransparency="true" frameborder="0"></iframe><div id="GWDANG_HAS_BUILT"></div></body></html>
