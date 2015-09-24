@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class ReferralTester extends Activity {
 
-	private static final String ARTICLE = "http://www.dev-articles.com/article/Android-Analytics-referral-tracking-447001";
+	private static final String ARTICLE = "";	//"http://www.dev-articles.com/article/Android-Analytics-referral-tracking-447001";
 
 	private static final int MISSING_SCANNER_DIALOG_ID = 10000;
 
